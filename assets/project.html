@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>HTML&CSS</title>
+ <style type="text/css">
+    h1, h3 {color:blue; font-family: Arial;}
+    body {color:black;font-size:1em; padding: 0px; margin: 0px;}
+    nav {
+        width: 240px;
+        min-height: 100%;
+        display: inline-block;
+        /* padding: 0.6em; */
+        vertical-align: top;
+    }
+    #main-doc {
+        width: calc(100% - 245px);
+        display: inline-block;
+        /* padding: 0.6em; */
+    }
+    .main-section{
+        margin-left: 1.2em;
+    }
+ </style>
+</head>
+<body>
+<nav id="navbar">
+    <header>HTML and CSS documentation</header>
+    <ul>
+        <li><a class="nav-link" href="introduction">introduction</a></li>
+        <li><a href="what_you_should_already_know">what you should already know</a></li>
+        <li><a href="HTML_and_CSS">HTML and CSS </a></li>
+        <li><a href="Refrence">Refrence </a></li>
+    </ul>
+</nav>  
+ <main id="main-doc"> 
+    <section class="main-section" id="Introduction">
+        <h1>Introduction</h1>
+        <p>HTML stands for HyperText Markup Language.It describes the structure of webpages and this is achieved by adding code to the words you want to appear on the page.</p>
+        <p>CSS stands for Cascading Style Sheet.It uses rules to enable you control the styling and layout of webpages.There are a variety of CSS propertiesyou can use in your CSS rules.</p>
+        <ul>
+            <li>To create a webpage, you start by writing down the words you want to appear on your page.Then you add tags or elements to the words so that the browser knows what is a heading and what is a paragraph.</li>
+            <li>CSS properties fall into two categories;
+                <ul>
+                    <li>Presentation:how to control things like how to add the background to images,background colors to images,color of text,the fonts you want to use and the size of those fonts.</li>
+                    <li>Layout:how to controlwhere the different elements are positioned on the screen.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="main-section"id="What_you_should_alredy_know">
+        <h1>what you should already know</h1>
+        <p>This guide assumes you have the following basic background</p>
+        <ul>
+            <li>Knowledge on how to use the text editors such as notepad which comes with windows or TextEdit which comes with Macs,VScode.</li>
+            <li>some experience on programming.</li>
+        </ul>
+    </section>
+
+    <section class="main-section"id="HTML_and_CSS">
+        <h1>HTML and CSS</h1>
+        <p>HTML and CSS are different in this way;</p>
+            <li>HTML code is made up of characters that live inside angeled brackets and these are called HTML elements.</li>
+            <li>Elements are usually made up of two tags opening tag and closing tag</li>
+            <li>CSS makes a page look more attractive through adding color,font-familly and font size to the content within the tags or elements</li>
+    </section>
+
+    <section class="main-section"id="Refrence">
+        <h1>Refrence</h1>
+        <p>This work was got from;</p>
+            <ul>
+                <li>the website of w3schools</li>
+                <li>Html and CSS design and build websites.pdf</li>
+            </ul>
+    </section>
+ </main>
+</body>
+</html>
